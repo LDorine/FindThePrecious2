@@ -17,11 +17,11 @@
     background-image: url("img/bg_light.png");
 }
 
-p {
+p,small,h4 {
     font-family: "business", Arial, sans-serif;
 }
 
-h1,h2,H3,h4,h5,h6,a {
+h1,h2,h3,h5,h6,a {
     font-family: "aniron", Arial, sans-serif;
 }
 
@@ -43,6 +43,14 @@ header {
     margin-bottom: 2%;
 }
 
+#wanted {
+    background-image: url("img/bg_dark.png");
+}
+
+.card-body {
+    color: gray;
+}
+
 span {
     color: rgb(255, 102, 0);
 }
@@ -52,35 +60,74 @@ span {
     align-self: center;
     top: 5%;
     padding: 2%;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(226, 226, 226);
     border-radius: 5px;
-    box-shadow: -5px -5px -5px -5px black;
+    box-shadow: 5px 5px 15px rgb(78, 78, 78);
 }
 
-.dead {
+.dead h4 {
+    text-decoration: line-through  rgb(255, 102, 0);
+}
+
+.dead .card-text {
     position: absolute;
     align-self: center;
     top: 5%;
     padding: 2%;
 }
 
-#wanted:hover .coins {
-    display: none;
+#nom {
+    position: absolute;
+    align-self: center;
+    bottom: 50%;
+    padding: 2%;
+    color: white;
+    font-size: 50px;
 }
 
 img {
     filter: contrast(65%);
 }
 
+#wanted:hover .card-text {
+    display: none;
+}
+
+
+
 #wanted:hover img {
     filter: contrast(100%);
 }
 
-#Reward ,#Ring ,#Contact {
-    background-image: url("img/bg_dark.png");
-    color: aliceblue;
+#wanted:hover #nom {
+    position: absolute;
+    align-self: center;
+    top: 50%;
+    padding: 2%;
+    color: white;
+    font-size: 20px;
 }
 
+#Reward ,#Ring,#Contact {
+    background-image: url("img/bg_dark.png");
+    color: white;
+}
+
+#Hunters h3 {
+    font-family: "business", Arial, sans-serif;
+    color: rgb(255, 102, 0);
+}
+
+#Hunters a {
+    font-family: "business", Arial, sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+
+#Ring .card-header {
+    background-color:  rgb(255, 102, 0);
+    color: white;
+}
 
 
 th,td {

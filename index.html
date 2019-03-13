@@ -18,12 +18,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="navbar-nav">
-                        <h6><a class="nav-item nav-link active" href="#Fellows">Fellows</a></h6>
-                        <h6><a class="nav-item nav-link" href="#Ring">The Ring</a></h6>
-                        <h6><a class="nav-item nav-link" href="#Reward">Get my reward</a></h6>
-                        <h6><a class="nav-item nav-link" href="#Hunters">Best hunters</a></h6>
-                        <h6><a class="nav-item nav-link" href="#Army">Join the army</a></h6>
-                        <h6><a class="nav-item nav-link" href="#Contact">Contact us</a></h6>
+                        <a class="nav-item nav-link active" href="#Fellows">Fellows</a>
+                        <a class="nav-item nav-link" href="#Ring">The Ring</a>
+                        <a class="nav-item nav-link" href="#Reward">Get my reward</a>
+                        <a class="nav-item nav-link" href="#Hunters">Best hunters</a>
+                        <a class="nav-item nav-link" href="#Army">Join the army</a>
+                        <a class="nav-item nav-link" href="#Contact">Contact us</a>
                     </div>
                 </div>
             </nav>
@@ -33,21 +33,21 @@
                 <div class="carousel-item active">
                     <img src="img/dark_vador.jpg" class="d-block w-100" alt="dark vador">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Sauron is a very good bro.</h5>
+                        <h3>Sauron is a very good bro.</h3>
                         <p>Please help him to find his ring !</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/dark_vador.jpg" class="d-block w-100" alt="dark vador">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Sauron is a very good bro.</h5>
+                        <h3>Sauron is a very good bro.</h3>
                         <p>Please help him to find his ring !</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/dark_vador.jpg" class="d-block w-100" alt="dark vador">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Sauron is a very good bro.</h5>
+                        <h3>Sauron is a very good bro.</h3>
                         <p>Please help him to find his ring !</p>
                     </div>
                 </div>
@@ -71,26 +71,26 @@
             <div class="card-deck">
                 <div id="wanted" class="card" style="width: 18rem;"> 
                     <img src="img/gandalf.png" alt="Gandalf" class="card-img-top">
+                    <h4 class="card-title" id="nom">gandalf</h4>
                     <p class="card-text coins">reward <span>1000</span> golden coins.</p>
                     <div class="card-body">
-                        <h5 class="card-title" id="nom">gandalf</h5>
-                        <p><small>a very dangerouswizard, balrog killer... </small></p>
+                        <p>a very dangerouswizard, balrog killer... </p>
                     </div>
                 </div>
                 <div id="wanted" class="card" style="width: 18rem;">
                     <img src="img/aragorn.png" alt="Aragorn" class="card-img-top">
+                    <h4 class="card-title" id="nom">aragord</h4>
                     <p class="card-text coins">reward <span>800</span> golden coins.</p>
                     <div class="card-body">
-                        <h5 class="card-title" id="nom">aragord</h5>
-                        <p><small>sauron's finger says him his sword is dangerous...</small></p>
+                        <p>sauron's finger says him his sword is dangerous...</p>
                     </div>
                 </div>
-                <div id="wanted" class="card" style="width: 18rem;">
+                <div id="wanted" class="card dead" style="width: 18rem;">
                     <img src="img/gimli.png" alt="Gimli" class="card-img-top">
-                    <p class="card-text dead"><span>dead</span></p>
+                    <h4 class="card-title" id="nom">gimli</h4>
+                    <p class="card-text"><span>dead</span></p>
                     <div class="card-body">
-                        <h5 class="card-title" id="nom">gimli</h5>
-                        <p><small>a dwarf, wich a beard and an axe...</small></p>
+                        <p>a dwarf, wich a beard and an axe...</p>
                     </div>
                 </div>
             </div>   
@@ -127,7 +127,7 @@
                     <div class="media">
                         <img src="img/hunter1.png" class="mr-3" alt="...">
                         <div class="media-body">
-                            <h5 class="mt-0">Elveskiller22</h5>
+                            <h3 class="mt-0">Elveskiller22</h3>
                             <p>2 captures - <a href="ProfilEleves">Profil</a></p>
                             <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="20" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                         </div>
@@ -137,7 +137,7 @@
                     <div class="media">
                         <img src="img/hunter2.png" class="mr-3" alt="...">
                         <div class="media-body">
-                            <h5 class="mt-0">Goblin45</h5>
+                            <h3 class="mt-0">Goblin45</h3>
                             <p>1 captures - <a href="ProfilEleves">Profil</a></p>
                             <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="20" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                         </div>
@@ -148,7 +148,7 @@
         <hr/>
         <section id="Ring">
             <h2>About the ring</h2>
-            <div class="card">
+            <div class="card col-10 offset-1">
                 <h5 class="card-header">Ring Capabilities</h5>
                 <div class="card-body">
                     <p class="card-text">What can our master Sauron do with the ring ?</p>
@@ -176,7 +176,7 @@
                     </table>
                 </div>
             </div>
-            <div class="card">
+            <div class="card col-10 offset-1">
                 <h5 class="card-header">Why the ring is awesome</h5>
                 <div class="card-body">
                     <div class="row">
