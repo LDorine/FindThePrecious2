@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "aniron";
+    src: url("font/Aniron/anicb___.ttf")
+}  
+
+@font-face {
+    font-family: "symbole";
+    src: url("font/tngan/tngan.ttf")
+}
+
+@font-face {
+    font-family: "business";
+    src: url("font/partyBusiness/partybusiness.ttf")
+}
+
+.container-fluid {
+    background-image: url("img/bg_light.png");
+}
+
+p {
+    font-family: "business", Arial, sans-serif;
+}
+
+h1,h2,H3,h4,h5,h6,a {
+    font-family: "aniron", Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(255, 102, 0);
+}
+
+.nav-item .nav-link .active {
+    text-decoration-line: underline;
+}
+
+.flex-sm-fill {
+    color: grey;
+}
+
+.ok {
+    color: rgb(255, 102, 0);
+    border-bottom: 4px solid rgb(255, 102, 0);
+    margin-bottom: 2%;
+}
+
+span {
+    color: rgb(255, 102, 0);
+}
+
+.coins {
+    position: absolute;
+    align-self: center;
+    top: 5%;
+    padding: 2%;
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    box-shadow: -5px -5px -5px -5px black;
+}
+
+.dead {
+    position: absolute;
+    align-self: center;
+    top: 5%;
+    padding: 2%;
+}
+
+#wanted:hover .coins {
+    display: none;
+}
+
+img {
+    filter: contrast(65%);
+}
+
+#wanted:hover img {
+    filter: contrast(100%);
+}
+
+#Reward ,#Ring ,#Contact {
+    background-image: url("img/bg_dark.png");
+    color: aliceblue;
+}
+
+
+
+th,td {
+    border: solid 1px black;
+}
