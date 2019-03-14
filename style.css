@@ -17,6 +17,10 @@
     background-image: url("img/bg_light.png");
 }
 
+#Contact, #Army, #Ring, #Hunters, #Reward, #Fellows {
+    padding: 2%;
+}
+
 p,small,h4 {
     font-family: "business", Arial, sans-serif;
 }
@@ -47,7 +51,7 @@ header {
     background-image: url("img/bg_dark.png");
 }
 
-.card-body {
+#wanted .card-body {
     color: gray;
 }
 
@@ -108,9 +112,17 @@ img {
     font-size: 20px;
 }
 
-#Reward ,#Ring,#Contact {
+.buttonC {
+    background-color: white;
+    font-family: "business", Arial, sans-serif;
+    color:  rgb(255, 102, 0);
+}
+
+#Reward ,#Ring ,#Contact {
     background-image: url("img/bg_dark.png");
     color: white;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 #Hunters h3 {
@@ -124,12 +136,59 @@ img {
     color: black;
 }
 
+#Ring .card {
+    margin-bottom: 2%;
+}
+
 #Ring .card-header {
     background-color:  rgb(255, 102, 0);
     color: white;
 }
 
+#Ring .card-text , #Ring p {
+    color: black;
+}
 
-th,td {
-    border: solid 1px black;
+th {
+    border-bottom: solid 1px black;
+    color: black;
+    font-family: "aniron", Arial, sans-serif;
+}
+
+td {
+    border-top: solid 1px gray;
+    padding-right: 5%;
+    color: gray;
+    font-family: "aniron", Arial, sans-serif;
+}
+
+cite {
+    font-family: "business", Arial, sans-serif;
+}
+
+.more {
+    font-family: "aniron", Arial, sans-serif;
+    color:  rgb(255, 102, 0); 
+}
+
+.buttonA {
+    background-image:url("img/bg_dark.png");
+    font-family: "aniron", Arial, sans-serif;
+    color:  rgb(255, 102, 0);
+}
+
+.divA {
+    align-self: center;
+}
+
+
+
+
+footer {
+    background-color: rgb(255, 102, 0);
+}
+
+footer a, footer:hover a {
+    text-decoration: none;
+    color: white;
 }
